@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Process</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="../css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navigation bar -->
+<div id="navigation">
+  <nav class="navbar navbar-expand-lg">
+    <a href="../index.html">
+    <img src="../img/Logo.svg" class="navbar-brand" alt="Logo (redirected to homepage)"></a>
+    <div class="navbar flex-column ml-auto">
+      <button class="navbar-toggler navbar-light align-content-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-items">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link mr-3 ml-3" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-3 ml-3" href="../html/resume.html">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Work
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../html/2nd Year.html">2nd Year</a>
+                <a class="dropdown-item" href="../html/3rd Year.html">3rd Year</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-3 ml-3" href="../html/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-3 ml-3" href="../html/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Containers olding everything -->
+<div class="processheader jumbotron container-fluid mb-0">
+  <h1 class="display-4">My Process for This Website</h1>
+</div>
+<div class="processcontainer container-fluid">
+<table class="table table-sm ml-5 mb-5">
+<thead>
+  <tr>
+    <th class="processsectionname" scope="col" colspan="5">Thoughts and Ideas</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th class="processimages" scope="row"><img src="../img/idea.png"></th>
+      <td colspan="3">As I started to think about how I wanted to design my website, I thought about what would represent me. For one, my favourite colour is blue, so I immediately thought that
+      I have to somehow implement that into my website, and what better way to do that than by implementing it into my header and footer. I also had an idea for what I wanted my website to include based
+      off of my assignment from a class I had taken in my 2nd year at the Sheridan College - Trafalgar, CCT260. The assignment had us make a portfolio website for ourselves and
+      I used that as a rough template as to how I wanted to design my website, such as where I wanted to place my top navigation and my social media icons within my footer. With an idea of how I wanted
+      to design my website, I created a wireframe which can be accessed by clicking the following link <a href="../img/Home-Wireframe.png">(HOMEPAGE WIREFRAME)</a>. There were many problems I encountered
+      during the process of designing my website, the biggest being for mobile optimization so that anyone is able to access the website which I will go more in detail about within the accessibility.
+      Other than that, my main problem was my carousel within the "My Work" pages as it seems that Bootstrap is only able to have 5 images work within a carousel and then it either crashes or loops back from
+      the 1st image to the 5th image. I later realized that the problem was actually a misplaced div tag and it was crashing the carousel, which now works as it should. I also encountered many other problems as this is my first time ever dealing with Bootstrap thoroughly, as it has many properties that can be implemented into the code, so
+      because of this reason, it took a lot of effort going through various sources finding out what each thing does.</td>
+  </tr>
+</tbody>
+<thead>
+  <tr>
+    <th class="processsectionname" scope="col" colspan="5">Website Accessibility</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th class="processimages" scope="row"><img src="../img/accessibility.png"></th>
+      <td colspan="3">While thinking about how I was going to design my website, another thing I head in my mind the whole time was how would I make it so that anyone can access my website. To begin with,
+      I made sure that all of my images had alt tags as there may be screenreaders within the website, or someone may not have an image load, and due to that, they would not know what they are unable to view.
+      Having alt tags, in my opinion, is a necessity. It is always best practice as it can cause a better impression on the general public as you never know who is going to be accessing your website. The other thing
+      I made sure to check was my color contrast. As you can see, most of my website follows a pattern of a custom shade of blue, as well as a custom grey and other greys that are the defaults. I checked the colour
+      contrasts to see if it would work well for a blue background and black foreground as you can see above on my navigation, and it passed all the tests using the <a href="https://webaim.org/resources/contrastchecker/">WEBAIM Contrast Checker</a>.
+      Due to this, I went forward with this colour scheme. I also checked for white foreground, but that had seemed to fail a lot of tests. However, it seems easy to other people I asked for opinions from to read
+      and due to that, I went forward with having white labels for my active webpage. I also made sure that the website was mobile friendly as there may be people coming on the website that only use a mobile device
+      and cannot access the full webpage. I had many problems for some places to properly wrap and contain image sizes properly, but through the use of media queries, I was able to make it so that the images and
+      everything is formatted properly and is all legible. I also designed my navigation in such a way so that everything seems to flow well, such as my redirectable logo to the homepage is on the left and the
+      menu options are all on the right. This also matches up with the mobile view as the hamburger icon is on the right and then opens the menu items on the right. One other thing I made sure to have within my
+      website was text that could be read without effort. All of the types of fonts I have implemented within my design are either some sort of serif or sans serif which I found through the use of <a href="https://fonts.google.com/">Google Fonts</a>.</td>
+  </tr>
+</tbody>
+<thead>
+  <tr>
+    <th class="processsectionname" scope="col" colspan="5">Page Typologies</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th class="processimages" scope="row"><img src="../img/webdesign.jpg"></th>
+      <td colspan="3">As I made my website, I thought about what the best type of typologies would be for each corresponding section. Out of 7 different page typologies to choose from, I have implemented 5 of those
+      typologies within my website. To begin with, my homepage is part of the landing page typology. Going from right to left (or from top to bottom on mobile) in my top navigation, I then have my Resume page. This
+      page holds the typology style of a tabular content page, or a page that uses tables. The next are the two pages I have within my "My Work" dropdown menu, "2nd Year" and "3rd Year." Both of these pages use
+      a photo-rich typology as they both are full of images. They also have disclosure implemented in them as they open to carousels within modals. The next page is the "About" page, which uses the typology of
+      content-heavy. This page is full of both text and images which gives it an equal balance of content and pictures. The last page is the "Contact" page. The implemented style within this is what it should be, a form page.
+      As you can see, this "Process" page has two different types of page typologies implemented into one. It uses tabular content, as well as being a content heavy page at the same time.</td>
+  </tr>
+</tbody>
+<thead>
+  <tr>
+    <th class="processsectionname" scope="col" colspan="5">References</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th class="refname" scope="row">Fonts</th>
+      <td><a href="https://fonts.google.com/">Google Fonts</a></td>
+      <td><a href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap">Fjalla One</a></td>
+      <td><a href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap">Bitter</a>
+  </tr>
+  <tr>
+    <th class="refname" scope="row">Bootstrap</th>
+      <td><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap Documentation</a></td>
+  </tr>
+  <tr>
+    <th class="refname" scope="row">Footer SVGs</th>
+      <td><a href="https://fontawesome.com/icons/linkedin?style=brands">LinkedIn SVG</a></td>
+      <td><a href="https://fontawesome.com/icons/twitter-square?style=brands">Twitter SVG</a></td>
+      <td><a href="https://fontawesome.com/icons/instagram-square?style=brands">Instagram SVG</a></td>
+  </tr>
+  <tr>
+    <th class="refname" scope="row">Other Links and Images</th>
+      <td><a href="http://www.freepptbackground.com/abstract/blue-wave-light-ppt-templates">Contact Page Background</a> (Edited to be grey)</td>
+      <td><a href="https://www.utm.utoronto.ca/housing/residence-services/campus-housing">UTM Image</a></td>
+      <td><a href="https://trilliumgiving.ca/e-newsletters/60andproudofit/attachment/mississauga-hospital/">Trillium Hospital Image</a></td>
+  </tr>
+  <tr>
+    <th class="refname" scope="row">Other Links and Images Continued</th>
+      <td><a href="https://webstockreview.net/pict/getfirst">Idea Image (Process Page)</a></td>
+      <td><a href="https://medium.com/@nehajain_67217/web-accessibility-and-its-importance-3d07782a249e">Accessibility Image (Process Page)</a></td>
+      <td><a href="https://www.blazedream.com/blog/best-features-of-website-designing/">Typology Image (Process Page)</a></td>
+  </tr>
+</tbody>
+</div>
+
+
+<!-- Footer -->
+<footer class="footer pt-1 fixed-bottom">
+  <ul>
+  <div class="container-fluid">
+    <span class="copyright">Owned by Ahmed Haji © 2020 - Powered by <a href="https://getbootstrap.com" target="_blank" class="copyright">Bootstrap</a>.</span>
+    <div id="socials">
+      <div>
+        <a href="https://www.instagram.com/ahmedhaji300">
+          <svg class="instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram-square" class="svg-inline--fa fa-instagram-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"></path></svg>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.twitter.com/ahmedhaji1210">
+          <svg class="twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter-square" class="svg-inline--fa fa-twitter-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path></svg>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/ahmed-haji-27735514a/">
+          <svg class="linkedin" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+        </a>
+      </div>
+    </div>
+    </ul>
+  </div>
+</footer>
+
+
+<script src="../js/jquery.slim.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

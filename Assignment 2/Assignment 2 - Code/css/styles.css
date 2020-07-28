@@ -1,0 +1,435 @@
+#navigation {
+  background-color: #1C81FB;
+}
+
+.navbar {
+  background-color: #439EFE;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+a.nav-link {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
+}
+
+.nav-item {
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nav-link:hover {
+  text-decoration: overline;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.current a {
+  color: white;
+  text-decoration: overline;
+}
+
+.current a:hover {
+  text-decoration: overline;
+  color: black;
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: 1px black;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover{
+  background-color: #439EFE;
+  color: white;
+  border-bottom: 1px black;
+}
+
+.homeJT {
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.homeJT h1 {
+  text-transform: uppercase;
+}
+
+.homeJT p {
+  font-size: 24px;
+}
+
+.homeJT img {
+  width: 45%;
+}
+
+.homeJT .jumbotron {
+  height: 90vh;
+  text-align: center;
+  background-image: url(../img/homeimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 86%;
+  width: 100%;
+}
+
+.processbutton {
+  background-color: #439EFE;
+  color: black;
+}
+
+.processbutton:hover {
+  background-color: #1C70FB;
+  color: white;
+}
+
+.footer {
+  background-color: #439EFE;
+  align-items: center;
+}
+
+.footer .container-fluid {
+  position: relative;
+}
+
+.footer .container-fluid span {
+  position: absolute;
+}
+
+.footer .container-fluid .copyright {
+  color: black;
+  font-weight: 600;
+}
+
+.footer #socials {
+	margin-right: 40px;
+}
+
+#socials a {
+	position: relative;
+  display: inline;
+	margin-right: 10px;
+	float: right;
+	width: 24px;
+	text-decoration: none;
+}
+
+#socials .twitter {
+  fill: black;
+	z-index: 999;
+}
+
+#socials .instagram {
+	fill: black;
+	z-index: 999;
+}
+
+#socials .linkedin {
+	fill: black;
+	z-index: 999;
+}
+
+#socials .twitter:hover {
+	fill: white;
+}
+
+#socials .instagram:hover {
+	fill: white;
+}
+
+#socials .linkedin:hover {
+	fill: white;
+}
+
+.containercontact {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.contact {
+  height: 86vh;
+  background-image: url(../img/bluewaves2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.form-group input {
+  border: 1px solid black;
+}
+
+.form-check {
+  margin-left: 30px;
+}
+
+.contactJT {
+  text-align: center;
+  background-color: grey;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.contactJT h1 {
+  text-transform: uppercase;
+}
+
+.contactJT p {
+  font-size: 24px;
+}
+
+.contactbtn {
+  background-color: #439EFE;
+  color: black;
+}
+
+.contactbtn:hover {
+  background-color: #1C70FB;
+  color: white;
+}
+
+.aboutjumbo {
+  background-color: #52585B;
+}
+
+
+.aboutjumbo h1 {
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.aboutjumbo p {
+  font-size: 26px;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.aboutInfo {
+  font-size: 18px;
+}
+
+.gradImg {
+  width: 35%;
+}
+
+
+.insideabout {
+  background-color: grey;
+  width: 75%;
+  content: inherit;
+  contain: content;
+}
+.col-3 {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.col{
+  align-content: center;
+  width: 40%;
+}
+
+.col ul li {
+  padding-bottom: 60px;
+}
+
+.bd {
+  background-color: #52585B;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.bd h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+}
+
+.bd hr {
+  background-color: white;
+}
+
+.bd .card:hover {
+  background-color: black;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.bd h5 {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.bd p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.carousel-caption {
+ background: rgb(28, 112, 251, 0.8);
+ color: white;
+}
+
+.carousel-caption p a {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-caption p a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+.resumeheader {
+  background-color: grey;
+  font-family: 'Bitter', serif;
+}
+
+.resumeheader h1 {
+  font-weight: bold 700;
+  font-size: 48px;
+}
+
+.resumeheader p {
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.sectionname {
+  text-decoration: underline;
+  font-family: 'Bitter', serif;
+  font-size: 22px;
+}
+
+.resumeinfo {
+  background-color: lightgrey;
+}
+
+thead tr th {
+  text-transform: uppercase;
+}
+
+tbody th span {
+  font-style: italic;
+}
+
+.table {
+  width: 0%;
+}
+
+.resumebutton {
+  margin-left: 50px;
+  background-color: #439EFE;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.resumebutton:hover {
+  background-color: #1C70FB;
+  color: white;
+}
+
+.processimages img {
+  width: 200px;
+}
+
+.processheader {
+  background-color: grey;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.processheader h1 {
+  text-transform: uppercase;
+}
+
+.processcontainer {
+  background-color: #52585B;
+  box-sizing: border-box;
+}
+
+.processcontainer td {
+  color: white;
+}
+
+.processsectionname {
+  text-decoration: underline;
+  font-family: 'Bitter', serif;
+  font-size: 22px;
+}
+
+.processsectionname {
+  color: white;
+}
+
+.refname {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .gradImg {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-3 {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer #socials a {
+    margin-top: 8%;
+  }
+}
