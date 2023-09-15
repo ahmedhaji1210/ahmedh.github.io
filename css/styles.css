@@ -1,0 +1,825 @@
+.site-body {
+	margin-left: 5em;
+	margin-right: 5em;
+	background-color: #84CDE5;
+}
+
+.site-body-inner {
+	background-color: white;
+
+}
+
+/* Navigation */
+.navbar {
+	background-color: #84CDE5;
+}
+
+.navbar-brand {
+  	float: left;
+}
+
+.navbar-nav {
+	margin-left: auto;
+
+}
+
+a.nav-link {
+  	color: white;
+  	font-family: 'Kanit' sans-serif;
+  	font-weight: 500;
+	font-size: 24px;
+}
+
+.nav-item {
+ 	white-space: nowrap;
+  	box-sizing: border-box;
+  	text-align: center;
+
+}
+
+.nav-link:hover {
+  	text-decoration: overline;
+  	cursor: pointer;
+	color: #1C1E6E;
+}
+
+.nav-item a {
+  	color: black;
+}
+
+.current a {
+	color: #1C1E6E;
+  	text-decoration: overline;
+}	
+
+.current a:hover {
+  	text-decoration: overline;
+  	color: black;
+}
+
+.navbar-brand:hover {
+  	cursor: pointer;
+}
+
+#navbarNavDropdown {
+  	border: 1px black;
+  	color: black;
+  	font-size: 18px;
+  	text-align: center;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  	color: black;
+  	text-decoration: none;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover{
+  	color: white;
+  	border-bottom: 1px black;
+}
+
+/* Footer */
+.footer {
+  	background-color: black;
+  	align-items: center;
+}
+
+.footer .container-fluid {
+  	position: relative;
+ 	margin-left: 2.2em;
+  	margin-right: 5em;
+}
+
+.footer .container-fluid span {
+  	position: absolute;
+}
+
+.footer .container-fluid .copyright {
+  	color: white;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+.footer #socials {
+	margin-right: 5.8em;
+}
+
+#socials a {
+	position: relative;
+  	display: inline;
+	margin-right: 10px;
+	float: right;
+	width: 26px;
+	text-decoration: none;
+}
+
+#socials .twitter {
+  	background: #00acee;
+	z-index: 999;
+}
+
+#socials .instagram {
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	z-index: 999;
+}
+
+#socials .linkedin {
+	background: #0E76A8;
+	z-index: 999;
+}
+
+#socials .twitter:hover {
+	fill: white;
+}
+
+#socials .instagram:hover {
+	fill: white;
+}
+
+#socials .linkedin:hover {
+	fill: white;
+}
+
+/* Parallax */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  	position: relative;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.bgimg-1 {
+  	background-image: url("../images/utm-3-60.png");
+ 	min-height: 850px;
+}
+
+.bgimg-2 {
+  	background-image: url("../images/460-a1-home.png");
+  	min-height: 500px;
+}
+
+.bgimg-3 {
+  	min-height: 500px;
+}
+
+.parallax-caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.parallax-caption span.parallax-title {
+ 	background-color: black;
+  	color: white;
+  	padding: 0.75em;
+  	font-size: 1.5em;
+  	letter-spacing: 10px;
+  	font-family: 'Kanit', sans-serif;
+  	font-weight: 300;
+}
+
+.parallax-content h3 {
+  	text-transform: uppercase;
+  	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+}
+
+.parallax-info {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/* Code used from https://blog.hubspot.com/website/css-fade-in */
+.parallaxbutton .mailto-button {
+  	background-color: #84CDE5;
+  	color: black;
+  	margin-bottom: 2.5em;
+  	text-align: center;
+  	position: absolute;
+  	font-family: 'Kanit', sans-serif;
+  	font-weight: 300;
+  	font-size: 24px;
+  	top: 70%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	animation: fadeIn linear 2s;
+  	-webkit-animation: fadeIn linear 2s;
+  	-moz-animation: fadeIn linear 2s;
+  	-o-animation: fadeIn linear 2s;
+  	-ms-animation: fadeIn linear 2s;
+}
+
+.parallaxbutton .mailto-button:hover {
+  	background-color: #1C1E6E;
+  	color: white;
+  	border-color: white 2px;
+}
+
+@keyframes fadeIn {
+  	0% {opacity:0;}
+  	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  	0% {opacity:0;}
+  	100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  	0% {opacity:0;}
+  	100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  	0% {opacity:0;}
+  	100% {opacity:1;}
+}
+
+.parallaxbutton .recentbutton {
+  	background-color: #84CDE5;
+  	font-family: 'Kanit', sans-serif;
+  	font-weight: 300;
+  	font-size: 28px;
+}
+
+.parallaxbutton .recentbutton:hover {
+	background-color: #1C1E6E;
+  	color: white;
+  	border-color: white 2px;
+}
+
+.parallaxcap .parallaxbutton .evo-button {
+  	background-color: #84CDE5;
+  	font-family: 'Kanit', sans-serif;
+  	font-weight: 300;
+  	font-size: 28px;
+}
+
+.parallaxcap .parallaxbutton .evo-button:hover {
+	background-color: #1C1E6E;
+  	color: white;
+  	border-color: white 2px;
+}
+
+/* Code taken from https://codepen.io/denic/pen/GRoOxbM --> */
+.wrapper {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.typing-demo {
+  	width: 100%;
+  	animation: typing 3s steps(35), blink 0s step-end infinite alternate;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	border-right: 1px solid;
+  	font-size: 2em;
+}
+
+@keyframes typing {
+  	from {
+    	width: 0
+  }
+}
+    
+@keyframes blink {
+  	50% {
+    	border-color: transparent
+  }
+}
+
+/* Contact Form: Code from https://www.w3schools.com/howto/howto_css_contact_section.asp */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #84CDE5;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1C1E6E;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  margin-bottom: 2em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-page {
+	margin-right: 2em;
+	margin-left:  2em;
+	margin-top: 2em;
+	font-family: 'Kanit', sans-serif;
+}
+
+.contact-page .con-h2 {
+	font-weight: 500;
+	font-size: 48px;
+}
+
+.contact-page .con-p {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.contact-page .con-h3 {
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.contact-page .con-h4 {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.contact-page .con-h4 a {
+	color: black;
+}
+
+.contact-page .con-h4 a:hover {
+	color: #1C1E6E;
+}
+
+/* Resume */
+.resumeinfo {
+	padding-left: 2em;
+}
+
+.display-4 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+}
+
+.text-body {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.ressec {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+}
+
+.resumebutton {
+  	background-color: #84CDE5;
+  	color: black;
+  	margin-bottom: 2.5em;
+}
+
+.resumebutton-class {
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.resumebutton:hover {
+  	background-color: black;
+  	color: white;
+}
+
+tbody {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+th {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	width: 25%;
+}
+
+hr {
+	width: 100%;
+	outline: auto;
+	opacity: 100;
+}
+
+td {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/* Modal and Carousal on Projects Page */
+.bd {
+  	position: relative;
+	background-color: #84CDE5;
+}
+
+
+.bd h1 {
+  	font-size: 48px;
+  	text-align: center;
+	color: black;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+}
+
+.bd hr {
+  	background-color: white;
+}
+
+.bd .card:hover {
+  	background-color: black;
+  	opacity: 80%;
+  	cursor: pointer;
+}
+
+.bd h5 {
+  	font-family: 'Kanit', sans-serif;
+  	font-size: 24px;
+}
+
+.bd p {
+  	font-family: 'Kanit', sans-serif;
+  	font-size: 18px;
+}
+
+.last-card {
+	margin-bottom: 3em!important;
+}
+
+.carousel-caption {
+ 	background: #84CDE5;
+ 	color: black;
+	opacity: 0.75;
+}
+
+.carousel-control-prev-icon {
+  	background-color: black;
+}
+
+.carousel-control-next-icon {
+  	background-color: black;
+}
+
+.carousel-inner > .item > img {
+  	width:640px;
+  	height:360px;
+}
+
+.carousel-inner > .carousel-item > img {
+  	width:100%;
+  	height:100%;
+}
+
+.rec-h2 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+
+.rec-p {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.rec-p a {
+	color: black;
+}
+
+.rec-p a:hover {
+	color: #1C1E6E;
+}
+
+.rec-h3 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.rec-h4 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+.rec-text {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+}
+
+.a1-button {
+  	background-color: #84CDE5;
+  	color: black;
+  	margin-bottom: 2.5em;
+}
+
+.a1-button-class {
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.a1-button:hover {
+  	background-color: black;
+  	color: white;
+}
+
+.process-h1 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-size: 48px;
+	text-decoration: underline;
+}
+
+.process-h2 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.process-h3 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	text-align: center;
+}
+
+.process-text {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.process-text a {
+	color: black;
+}
+
+.process-text a:hover {
+	color: #1C1E6E;
+}
+
+.last-text {
+	margin-bottom: 3em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+.site-body {
+	margin-left: 1em;
+	margin-right: 1em;
+	background-color: #84CDE5;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.fixed-top .navbar-brand {
+		margin-left: 1em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer .container-fluid {
+	 	margin-left: 0.1em;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	.row {
+    	display: inline-block;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+  	.col {
+    	min-width: 100%;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+  	.col-3 {
+    	min-width: 100%;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+  	footer #socials a {
+    	margin-top: 2em;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer #socials {
+		margin-right: 10em;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer .container-fluid {
+  	  	position: relative;
+	  
+  	}
+}
+
+@media screen and (max-width: 800px) {
+ 	.wrapper {
+  	  	display: flex;
+  	  	align-items: center;
+  	  	justify-content: center;
+  }
+
+  	.typing-demo {
+      	width: 100%;
+      	animation: typing 3s steps(35), blink 0s step-end infinite alternate;
+  	  	white-space: nowrap;
+  	  	overflow: hidden;
+  	  	border-right: 1px solid;
+  	  	font-family: monospace;
+  	  	font-size: 16px;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+  	.parallaxbutton .mailto-button {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	.parallaxbutton .recentbutton {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	.parallaxcap .parallaxbutton .evo-button {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	.carousel-inner > .carousel-item > img {
+  		width:400px;
+  		height:500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  	.column, input[type=submit] {
+    	width: 100%;
+    	margin-top: 0;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+	form {
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.bd h1{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.last-card .mb-4 {
+		margin-bottom: 3em!important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.rec-h2 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 500;
+		font-size: 30px;
+		text-decoration: underline;
+		margin-top: 20px;
+	}
+
+	.rec-p {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.rec-p a {
+		color: black;
+	}
+
+	.rec-p a:hover {
+		color: #1C1E6E;
+	}
+
+	.rec-h3 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 400;
+		font-size: 28px;
+	}
+
+	.rec-h4 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 300;
+		font-size: 24px;
+		text-decoration: underline;
+	}
+
+	.rec-text {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 200;
+		font-size: 18px;
+	}
+
+	.a1-button {
+		background-color: #84CDE5;
+		color: black;
+		margin-bottom: 2.5em;
+	}
+
+	.a1-button-class {
+		text-align: center;
+		font-family: 'Kanit', sans-serif;
+		font-weight: 300;
+		font-size: 20px;
+	}
+
+	.a1-button:hover {
+		background-color: black;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.process-h1 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 500;
+		font-size: 36px;
+		text-decoration: underline;
+	}
+
+	.process-h2 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 300;
+		font-size: 24px;
+	}
+
+	.process-h3 {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 400;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.process-text {
+		font-family: 'Kanit', sans-serif;
+		font-weight: 200;
+		font-size: 18px;
+	}
+
+	.process-text a {
+		color: black;
+	}
+
+	.process-text a:hover {
+		color: #1C1E6E;
+	}
+
+	.last-text {
+		margin-bottom: 4em;
+	}
+	
+	.process-h3 .references {
+		font-size: 14px;
+	}
+}
